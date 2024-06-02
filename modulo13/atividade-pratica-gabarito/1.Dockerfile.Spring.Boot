@@ -9,6 +9,7 @@ COPY backend/target /home/app/target
 RUN bash -O extglob -c 'rm -rfv /home/app/target/!(*.jar)'
 
 
+
 #
 # Package stage
 #
